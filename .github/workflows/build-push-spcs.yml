@@ -5,9 +5,7 @@ on:
 
 env:
   SNOWFLAKE_ACCOUNT: itb08167
-  IMAGE_REPO: [itb08167.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images](https://itb08167.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images)
-  IMAGE_NAME: evidence-api
-  IMAGE_TAG: v1
+IMAGE_REPO: [itb08167.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images](https://itb08167.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images)  IMAGE_TAG: v1
 
 jobs:
   build-and-push:
