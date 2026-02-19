@@ -1,0 +1,9 @@
+name: realtime_ml_pipeline
+channels:
+  - snowflake
+dependencies:
+  - pandas
+  - numpy
+  - scikit-learn
+  - snowflake-ml-python
+  - snowflake-snowpark-python

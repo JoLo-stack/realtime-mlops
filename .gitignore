@@ -1,0 +1,10 @@
+# Large files
+*.tar.gz
+evidence-api-v23/
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
