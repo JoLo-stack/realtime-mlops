@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  SNOWFLAKE_ACCOUNT: itb08167
-  IMAGE_REPO: https://sfsenorthamerica-jlong-aws1.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images
+  SNOWFLAKE_ACCOUNT: sfsenorthamerica-jlong-aws1
+  IMAGE_REPO: sfsenorthamerica-jlong-aws1.registry.snowflakecomputing.com/realtime_ml_pipeline/spcs/images
   IMAGE_NAME: evidence-api
   IMAGE_TAG: v1
 
